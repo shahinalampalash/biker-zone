@@ -146,7 +146,7 @@
     <main class="md:container md:mx-auto">
         <section class="my-40 space-y-12">
             <h2 class="text-5xl font-semibold text-center">Fetured Bikes In This Year</h2>
-            <div class="flex flex-col md:flex-col lg:flex-row justify-around">
+            <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around ml-5">
                 <img src="images/others/feature-bike.png" alt="">
                 <img src="images/others/feature-bike.png" alt="">
                 <img src="images/others/feature-bike.png" alt="">
@@ -154,7 +154,7 @@
         </section>
         <section class="my-36 space-y-12">
             <h2 class="text-5xl font-semibold text-center">latest News</h2>
-            <div class="flex flex-col md:flex-col lg:flex-row gap-x-5 justify-center">
+            <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 justify-center">
                 <!-- card-1 -->
                 <div class="card bg-base-100 w-96 shadow-xl">
                     <figure>
@@ -202,9 +202,133 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
+        <section class="my-36 space-y-12">
+            <h2 class="text-5xl font-semibold text-center">Happy <span class="text-bike-primary">Clients says</span>
+            </h2>
+            <!-- card section -->
 
+            <div class="grid md:gap-7 lg:gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:space-x-10">
+                <!-- card one -->
+                <div class="card bg-base-100 lg:w-96 md:p-6 lg:p-9 border border-gray-400">
+                    <figure>
+                        <img class="w-36" src="images/others/user-1.png" alt="" />
+                    </figure>
+                    <div class="card-body space-y-4 text-center">
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <!-- rating -->
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h4 class="text-sm font-semibold text-cyan-400">Regina Miles</h4>
+                        <h3 class="text-sm font-semibold">Banker</h3>
+                    </div>
+                </div>
+                <!-- card two -->
+                <div class="card bg-base-100 lg:w-96 md:p-6 lg:p-9 border border-gray-400">
+                    <figure>
+                        <img class="w-36" src="images/others/user-2.png" alt="" />
+                    </figure>
+                    <div class="card-body space-y-4 text-center">
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <!-- rating -->
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h4 class="text-sm font-semibold text-cyan-400">Regina Miles</h4>
+                        <h3 class="text-sm font-semibold">Banker</h3>
+                    </div>
+                </div>
+                <!-- card three -->
+                <div class="card bg-base-100 lg:w-96 md:p-6 lg:p-9 border border-gray-400">
+                    <figure>
+                        <img class="w-36" src="images/others/user-3.png" alt="" />
+                    </figure>
+                    <div class="card-body space-y-4 text-center">
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <!-- rating -->
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h4 class="text-sm font-semibold text-cyan-400">Regina Miles</h4>
+                        <h3 class="text-sm font-semibold">Banker</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-5xl font-semibold text-center">Frequently Asked <span
+                    class="text-bike-primary">Questions</span></h2>
+            <div class="hero">
+                <div class="hero-content flex-col lg:flex-row gap-24 ">
+                    <img src="images/others/faq.png" class="max-w-sm rounded-lg " />
+                    <div class="space-y-9">
+                        <div class="collapse collapse-arrow bg-base-200">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">What are the most important things I should
+                                know about riding a bike?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-200">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I
+                                need a
+                                new one?
+                            </div>
+                            <div class="collapse-content">
+                                <p>hello</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-200">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to
+                                ride?
+                            </div>
+                            <div class="collapse-content">
+                                <p>hello</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer bg-neutral text-neutral-content items-center mt-40 lg:px-20 lg:py-12">
+        <aside class="grid-flow-col items-center">
+            <p>Copyright ©- All right reserved</p>
+        </aside>
+        <nav class="grid grid-cols-1 gap-4 md:place-self-center md:justify-self-end">
+            <a> <img class="w-36" src="images/others/android.png" alt=""></a>
+            <a><img class="w-36" src="images/others/ios.png" alt=""> </a>
+        </nav>
     </footer>
 </body>
 
